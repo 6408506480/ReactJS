@@ -15,7 +15,10 @@
 
     <script>
         const root = ReactDOM.createRoot(document.getElementById("root"));
-        const myElement = React.createElement("h2", null, "This is React Element.")
+
+        //Compile with Babel
+        const myElement = <h2>Babel is a JavaScript compiler.</h2>
+        
         root.render(myElement);
     </script>
 
