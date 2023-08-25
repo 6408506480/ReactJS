@@ -1,16 +1,15 @@
-//Immediately Invoked Function Expression (IIFE)
-let marks = 32;
+//map() for looping
+let name = ["Ahsan", "Habib", "Sajib"];
 const App = () => {
   return (
     <div>
-      {( ()=>{
-        if(marks>=33){
-          return <h1>Pass</h1>
-        }
-        else{
-          return <h1>Fail</h1>
-        }
-      } ) ()}
+     <ul>
+      { 
+        name.map( (item, i)=>{
+          return <li key={i.toString()}> {item} </li>
+        })
+      }
+     </ul>
     </div>
   );
 };
