@@ -1,0 +1,7 @@
+(1) Install Bootstrap
+      npm install bootstrap
+
+(2) Import Bootstrap in maim.jsx page
+     import "bootstrap";
+     import "bootstrap/dist/css/bootstrap.css"
+
